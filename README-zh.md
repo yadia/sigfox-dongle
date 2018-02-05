@@ -1,4 +1,6 @@
 # Easy set up of Sigfox Dongle
+**INFO**
+Currently working on 中文版本
 Instruction on how to use the Sigfox SDR Dongle on a VM. You can run this VM on an MAC OS or Windows OS laptop.
 
 This tutorial consists of the following sections:
