@@ -8,11 +8,13 @@ This tutorial consists of the following sections:
 * Using the Sigfox Network Emulator Software
 
 ## SDR Dongle Charateristics
------------- | -------------
-Operating frequency | 865-870 MHz, 902-928 MHz software configurable
-Monitored spectrum| 192kHz
-Receiver Sensitivity | -64dBm @ 100bps
-Transmit Power | 14dBm
+
+| Characteristic | Property  |
+|------------ | -------------|
+| Operating frequency | 865-870 MHz, 902-928 MHz software configurable |
+| Monitored spectrum| 192kHz |
+| Receiver Sensitivity | -64dBm @ 100bps |
+| Transmit Power | 14dBm |
 
 The SDR dongle kit comes with a 40 dB attenuator provided which should be used for class 0U device.
 
@@ -94,14 +96,15 @@ This allows you to evaluate your device's power emission. The best conditions th
 ### 4. Sigfox Verified Tests
 You can run different test modes to evaulate your device. However, you can only run one test mode at a time.
 Available test modes
-    Test Mode   |  Mode Number |   Covers  | Notes 
-   ------------ | ------------- | ------------- | ------------- 
-   TX-BSPK  | Mode 0  | Normal, minimum, and maximum voltage. Spectrum measurement, Datarate measurement, Dynamic Drift measurement, Phase measurement, Envelope measurement, Static Drift measurement, Power measurement. | **For UPLINK RF**
-   TX-PROTOCOL | Mode 1 | Uplink Protocol, Timings, Frequency Distribution  | **UPLINK Protocol is tested on all type frames Bit, 1-12Byte, Out of Band**
-   RX-PROTOCOL | Mode 2 |Downlink Protocol, Timings, GFSK Response. | **DOWNLINK Protocol **
-   RX-GFSK | Mode 3 | GFSK demodulation, approximate sensitivity
-   RX-SENSITIVITY | Mode 4 | Device Sensitivity with Sigfox Protocol.| ** Can't be tested with SDR Dongle** 
-   TX-SYNTH | Mode 5 | Device Synthesis Step | N/A
+
+| Test Mode   |  Mode Number |   Covers  | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| TX-BSPK  | Mode 0  | Normal, minimum, and maximum voltage. Spectrum measurement, Datarate measurement, Dynamic Drift measurement, Phase measurement, Envelope measurement, Static Drift measurement, Power measurement. | **For UPLINK RF** |
+| TX-PROTOCOL | Mode 1 | Uplink Protocol, Timings, Frequency Distribution  | **UPLINK Protocol is tested on all type frames Bit, 1-12Byte, Out of Band** |
+| RX-PROTOCOL | Mode 2 |Downlink Protocol, Timings, GFSK Response. | **DOWNLINK Protocol** |
+| RX-GFSK | Mode 3 | GFSK demodulation, approximate sensitivity |
+| RX-SENSITIVITY | Mode 4 | Device Sensitivity with Sigfox Protocol.| **Can't be tested with SDR Dongle** |
+| TX-SYNTH | Mode 5 | Device Synthesis Step | N/A |
    
 ### 5. Veredicts
 Depending on the test mode run the Veredicts window will tell you whether the item is NOT TESTED, PASSED or FAILED.
